@@ -1,0 +1,116 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+body {
+	/* Adding the background image of the whole page */
+	background-image: url("ptrbackground.jpg");
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The main area of the page */
+#wrapper {
+	width: 80%;
+	min-width: 600px;
+	background-color: rgb(133, 205, 229);
+	margin-left: auto;
+    margin-right: auto;
+}
+/* The main area of the page */
+
+nav {
+	/* This puts the links to float in the left side */
+	float: left;
+}
+
+nav ul {
+	font-size: 1.1em;
+	margin-left: -15px;
+	/* Removing the bullet points */
+	list-style-type: none;
+}
+
+/* Removing the underlines, bolding, increasing text size, and changing color of text: navigation links */
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 120%;
+	color: navy;
+}
+/* Removing the underlines from the navigation links */
+
+nav a:visited {
+	color: navy;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+
+/* Creating a #content class to fill the right side of the page from the navigation link */
+#content {
+	background-color: white;
+	padding-left: 30px;
+	padding-top: 1px;
+	margin-left: 200px;
+}
+
+/* Places image on left side of the #content */
+#content img {
+	float: left;
+	margin-right: 20px;
+}
+
+/* Getting rid of the bullet point of the list inside content and replacing it with the marker.gif */
+#content ul {
+	list-style: inside url('marker.gif') no-repeat;
+}
+
+span.resort {
+	font-weight: bold;
+	color: darkcyan;
+}
+
+header {
+	/* Filling the left side of the header and setting background image to the right with no repeats  */
+	background-color:#000033;
+	background-image: url("sunset.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	/* Changing the title of the page to white*/
+	color: white;
+	font-size: 220%;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+dt {
+	color: #000033;
+}
+
+/* Placing the image on underneath the image and changing the background to white to match */
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	padding-left: 1%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	margin-left: 200px;
+	font-style: italic;
+	font-size: 78%;
+	background-color: white;	
+}
+
+
